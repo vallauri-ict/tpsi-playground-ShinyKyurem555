@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dee27c66-c108-469f-9a4b-085b131ef656" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JSON_RandomUser_Jquery/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON_RandomUser_Jquery/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON_prova1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON_prova1/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSxml/CSS/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSxml/HTML/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSxml/JS/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSxml/XML/Compositori.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Es02.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dee27c66-c108-469f-9a4b-085b131ef656" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,10 +55,24 @@
       <workItem from="1603789701255" duration="2129000" />
       <workItem from="1603963692032" duration="599000" />
       <workItem from="1604051656873" duration="16000" />
+      <workItem from="1604323969439" duration="315000" />
     </task>
+    <task id="LOCAL-00001" summary="Backup esercizi">
+      <created>1604324202569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604324202569</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Backup esercizi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backup esercizi" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
