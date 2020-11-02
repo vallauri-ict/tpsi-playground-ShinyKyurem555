@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+
+<!DOCTYPE libretti [
+        <!ELEMENT libretti (libretto)*>
+        <!ELEMENT libretto (studente,esami?)>
+        <!ELEMENT studente (nome,cognome)>
+        <!ATTLIST studente cdl CDATA #REQUIRED matricola CDATA #REQUIRED>
+        <!ELEMENT esami (esame)+ >
+        <!ELEMENT esame (materia,voto,data)>
+        <!ELEMENT nome (#PCDATA) >
+        <!ELEMENT cognome (#PCDATA) >
+        <!ELEMENT materia (#PCDATA) >
+        <!ELEMENT voto (#PCDATA) >
+        <!ELEMENT data (#PCDATA) >
+        ]>
+
+<libretti>
+    <libretto>
+        <studente cdl="0" matricola="1273">
+            <nome>Stefano</nome>
+            <cognome>Bisogno</cognome>
+        </studente>
+        <esami>
+            <esame>
+                <materia>Informatica</materia>
+                <voto>6,5</voto>
+                <data>04/10/2020</data>
+            </esame>
+        </esami>
+    </libretto>
+</libretti>

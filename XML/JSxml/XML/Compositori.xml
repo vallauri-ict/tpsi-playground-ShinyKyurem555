@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<compositori>
+    <compositore epoca="classicismo">
+        <nome>Wolfgang Amadeus Mozart</nome>
+        <dataNascita>1756-01-27</dataNascita>
+        <dataMorte>1791-12-25</dataMorte>
+    </compositore>
+    <compositore epoca="romanticismo">
+        <nome>Franz Schubert</nome>
+        <dataNascita>1797-01-31</dataNascita>
+        <dataMorte>1828-11-19</dataMorte>
+    </compositore>
+    <compositore epoca="classicismo">
+        <nome>Ludwig Von Beethoven</nome>
+        <dataNascita>1770-12-17</dataNascita>
+        <dataMorte>1823-02-25</dataMorte>
+    </compositore>
+</compositori>

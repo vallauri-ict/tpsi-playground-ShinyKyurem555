@@ -1,0 +1,27 @@
+function generateUsers() {
+let numUsers = document.getElementById("num").value;
+let param = "?results=" + numUsers;
+let finalUrl = "https://randomuser.me/api/" + param;
+// console.log(finalUrl);
+$.ajax({
+url: finalUrl,
+success: function (usersData) {
+console.log(usersData);
+// TODO:: generazione dinamica dei contenuti
+}
+});
+}
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+<label for="num">Number of users:</label>
+<input type="text" id="num" name="num">
+<button type="button" onclick="generateUsers()">Generate Users</button>
+</body>
+
+</html>

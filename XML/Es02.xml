@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+
+<!DOCTYPE verbali [
+        <!ELEMENT verbali (verbale)* >
+        <!ELEMENT verbale (studente,esame) >
+        <!ELEMENT studente (nome+,cognome) >
+        <!ATTLIST studente cdl CDATA #REQUIRED matricola CDATA #REQUIRED >
+        <!ELEMENT esame (materia,docente,voto,lode,data) >
+        <!ELEMENT nome (#PCDATA) >
+        <!ELEMENT cognome (#PCDATA) >
+        <!ELEMENT materia (#PCDATA) >
+        <!ELEMENT docente (#PCDATA) >
+        <!ELEMENT voto (#PCDATA) >
+        <!ELEMENT lode (#PCDATA) >
+        <!ELEMENT data (#PCDATA) >
+        ]>
+
+<verbali>
+    <verbale>
+        <studente cdl="007" matricola="001203">
+            <nome>Filippo</nome>
+            <nome>Maria</nome>
+            <cognome>Rossi</cognome>
+        </studente>
+
+        <esame>
+            <materia>Gastronomia</materia>
+            <docente>Vissani</docente>
+            <voto>30</voto>
+            <lode>Sì</lode>
+            <data>01/04/04</data>
+        </esame>
+    </verbale>
+</verbali>
